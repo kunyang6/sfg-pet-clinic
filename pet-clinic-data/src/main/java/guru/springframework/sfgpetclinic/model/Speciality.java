@@ -7,19 +7,18 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- * Created by jt on 7/13/18.
+ * Created by jt on 7/29/18.
  */
-
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "types")
-public class PetType extends BaseEntity {
+@Table(name = "specialties")
+public class Speciality extends BaseEntity {
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "description")
+    private String description;
 
 }
